@@ -1,0 +1,197 @@
+.space {
+	margin: 40px 0px;
+}
+#title {
+	color: beige;
+	text-shadow: 1px 1px 2px black;
+}
+#title>h2 {
+	text-align: center;
+}
+.calendar,
+.meeting {
+	border-radius: 5px;
+	color: #222629;
+	overflow: hidden;
+	-moz-box-shadow: 10px 10px 5px #656565;
+	-webkit-box-shadow: 10px 10px 5px #656565;
+	-o-box-shadow: 10px 10px 5px #656565;
+	box-shadow: 10px 10px 5px #656565;
+}
+.meeting {
+	margin: 20px 0px;
+}
+.calendar {
+	background: #fff;
+}
+.month {
+	display: inline-block;
+	font-weight: bold;
+}
+.desactiveInput {
+	color: #666666;
+	background: #cccccc;
+	display: block;
+	width: 90%;
+	margin: 10px 50px 0px 50px;
+}
+.btnDesactive:hover {
+	background: #fff !important;
+	color: #000 !important;
+}
+#title {
+	color: beige;
+	text-shadow: 1px 1px 2px black;
+}
+.entete,
+.enteteRendezVous {
+	background: #ddd;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+.enteteRendezVous {
+	font-weight: bold;
+}
+.errorContentTitre,
+.errorContentDesc {
+	color: #CC0000;
+	font-size: 10px;
+	font-style: italic;
+	margin: 2px 50px 0px 50px;
+	font-weight: bold;
+	display: none;
+}
+.contentSpec {
+	display: block;
+	background: #ddd;
+	height: 80px;
+	text-align: center;
+	font-size: 22px;
+	line-height: 80px;
+	color: red;
+	font-style: italic;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.calendar button {
+	background: #fff;
+	color: inherit;
+	cursor: pointer;
+	font-family: Consolas;
+	font-size: 1.75rem;
+	height: 100%;
+	padding: 0 25px;
+}
+.calendar button:hover {
+	color: #52E40E;
+}
+.calendar button:first-child {
+	float: left;
+}
+.calendar button:last-child {
+	float: right;
+}
+.calendar .cell {
+	background: #fff;
+	font-weight: bold;
+	color: #5d5d5d;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px 0;
+	text-align: center;
+	width: calc(100% / 7);
+}
+.calendar .day {
+	background: rgba(14, 149, 228, 0.849);
+	color: #fff;
+	height: 50px;
+	line-height: 40px;
+	font-size: 15px;
+}
+.calendar .today {
+	background: #0E96E4;
+	color: #fff;
+	/*class Rendez vous    */
+}
+.divRendezVous {
+	margin: 20px 0px;
+	background: #fff;
+}
+.sup_button:hover {
+	background: rgb(14, 228, 60);
+	color: #fff;
+}
+.dayMark {
+	color: #e2b22b;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -13px;
+	font-size: 50px;
+}
+.meeting_name,
+.description,
+.labelDescription,
+.contentButton,
+.contentLabelNom,
+.contentLabelDescription {
+	display: block;
+	width: 90%;
+	margin: 10px 50px 0px 50px;
+}
+.container {
+	background: rgb(113, 114, 114);
+	padding: 50px 120px !important;
+	height: auto;
+}
+.description {
+	min-height: 100px;
+	resize: vertical;
+}
+.contentButton {
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	background: #fff;
+}
+.sub_button {
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.sub_button:hover {
+	background: #0E96E4;
+	color: #fff;
+}
+.sup_button {
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.sup_button:hover {
+	background: #0E96E4;
+	color: #fff;
+}
+.dayMark {
+	color: #e2b22b;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -13px;
+	font-size: 50px;
+}
+.dayMark1 {
+	color: #00b22b;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -13px;
+	font-size: 50px;
+}
+.dayMark2 {
+	color: #e2b22b;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -13px;
+	font-size: 50px;
+}
